@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "sourceMap": true,
+    "module": "CommonJS",
+    "target": "es5",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["dist"]
+}
