@@ -23,6 +23,6 @@ const React = __importStar(require("react"));
 require("../node_modules/weather-icons/css/weather-icons.css");
 const WeatherIcons = () => {
     return (React.createElement("div", null,
-        React.createElement("i", { className: "wi wi-barometer" })));
+        React.createElement("i", { className: "wi wi-day-cloudy-gusts" })));
 };
 exports.default = WeatherIcons;
