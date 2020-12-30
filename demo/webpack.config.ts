@@ -1,5 +1,6 @@
 import * as webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 import path from 'path';
 
 const webpackConfig: webpack.Configuration = {
@@ -33,7 +34,7 @@ const webpackConfig: webpack.Configuration = {
       },
       {
         test: /\.css$/,
-        use: [{ loader: 'css-loader', options: { importLoaders: 3 } }],
+        use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
     ],
   },
@@ -51,7 +52,12 @@ const webpackConfig: webpack.Configuration = {
     watchContentBase: true,
     hot: true,
   },
-  plugins: [new HtmlWebpackPlugin({ template: './index.html' })],
+  plugins: [
+    new HtmlWebpackPlugin({ template: './index.html' }),
+    new MiniCssExtractPlugin({
+      filename: 'style.css',
+    }),
+  ],
 };
 
 export default webpackConfig;
