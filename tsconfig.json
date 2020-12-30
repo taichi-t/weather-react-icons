@@ -12,7 +12,8 @@
     "noUnusedLocals": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
   },
-  "exclude": ["./demo/*/**"]
+  "exclude": ["./example/", "./dist/", "./node_modules/"]
 }
