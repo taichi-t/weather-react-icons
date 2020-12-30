@@ -4,6 +4,7 @@
     "module": "commonjs",
     "jsx": "react",
     "outDir": "./dist",
+    "declaration": true,
     "strict": true,
     "noImplicitAny": true,
     "noImplicitThis": true,
