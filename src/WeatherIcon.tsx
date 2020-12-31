@@ -4,14 +4,14 @@ import convertCode from './utils/convertCode';
 
 type WeatherIconProps = {
   iconId: number;
-  className: string;
+  className?: string;
   name: 'owm' | 'yahoo';
-  night: boolean;
+  night?: boolean;
 };
 
 const WeatherIcon: React.FC<WeatherIconProps> = ({
   iconId,
-  className,
+  className = '',
   name,
   night = false,
 }) => {
