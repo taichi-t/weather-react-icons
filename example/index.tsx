@@ -3,6 +3,8 @@ import * as ReactDOM from 'react-dom';
 import { WeatherIcon } from '../src/index';
 
 ReactDOM.render(
-  <WeatherIcon iconId={212} name="owm" night={true} />,
+  <>
+    <WeatherIcon iconId={801} name="owm" night />
+  </>,
   document.getElementById('root')
 );
