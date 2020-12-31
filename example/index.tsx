@@ -1,5 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import WeatherIcons from '../dist/index';
+import { WeatherIcon } from '../src/index';
 
-ReactDOM.render(<WeatherIcons />, document.getElementById('root'));
+ReactDOM.render(
+  <WeatherIcon iconId={212} name="owm" night={true} />,
+  document.getElementById('root')
+);
