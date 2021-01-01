@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "strict": false,
-    "sourceMap": true,
-    "module": "CommonJS",
-    "target": "es5",
+    "target": "es2015",
+    "module": "commonJS",
     "jsx": "react",
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node"
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true
   },
   "exclude": ["dist", "node_modules"]
 }
