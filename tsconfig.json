@@ -1,19 +1,12 @@
 {
   "compilerOptions": {
     "target": "es2015",
-    "module": "commonjs",
+    "module": "commonJS",
     "jsx": "react",
     "outDir": "./dist",
     "declaration": true,
     "strict": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
+    "noImplicitAny": true
   },
-  "exclude": ["./example/", "./dist/", "./node_modules/"]
+  "include": ["src"]
 }

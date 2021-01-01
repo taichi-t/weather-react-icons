@@ -18,24 +18,23 @@ const convertOWMCode = (iconId: number, night: boolean) => {
     if (!OWM_MAP.night[iconId]) {
       throw new Error('Icon Id does not exist');
     }
-    const icon = OWM_MAP.night[iconId].icon;
-    prefix = prefix + 'night-';
-    return prefix + icon;
-  } else {
-    if (!OWM_MAP.day[iconId]) {
-      throw new Error('Icon Id does not exist');
-    }
-    const icon = OWM_MAP.day[iconId].icon;
-    prefix = prefix + 'day-';
+    const { icon } = OWM_MAP.night[iconId];
+    prefix += 'night-';
     return prefix + icon;
   }
+  if (!OWM_MAP.day[iconId]) {
+    throw new Error('Icon Id does not exist');
+  }
+  const { icon } = OWM_MAP.day[iconId];
+  prefix = `${prefix}day-`;
+  return prefix + icon;
 };
 const convertYahooCode = (iconId: number) => {
-  let prefix = 'wi wi-';
+  const prefix = 'wi wi-';
   if (!YAHOO_MAP[iconId]) {
     throw new Error('Icon Id does not exist');
   }
-  const icon = YAHOO_MAP[iconId].icon;
+  const { icon } = YAHOO_MAP[iconId];
   return prefix + icon;
 };
 

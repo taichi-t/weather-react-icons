@@ -1,0 +1,4 @@
+{
+  "include": ["example", "src"],
+  "exclude": ["example/node_modules", "example/dist"]
+}
