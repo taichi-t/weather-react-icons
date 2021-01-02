@@ -18,7 +18,7 @@ const WeatherIcon: React.FC<WeatherIconProps> = ({
 }) => {
   const iconClassName = convertCode(name, iconId, night);
   const classNames = `${iconClassName} ${className}`;
-  return <i className={classNames} {...htmlProps} />;
+  return <i className={classNames} {...htmlProps} data-testid="icon" />;
 };
 
 export default WeatherIcon;
