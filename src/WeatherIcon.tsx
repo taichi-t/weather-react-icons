@@ -2,12 +2,21 @@ import * as React from 'react';
 import './css/weather-icons.min.css';
 import convertCode from './utils/convertCode';
 
-type WeatherIconProps = {
-  iconId: number;
-  className?: string;
-  name: 'owm' | 'yahoo';
-  night?: boolean;
-} & React.ComponentPropsWithRef<'i'>;
+type WeatherIconProps = (
+  | {
+      iconId: number;
+      className?: string;
+      name: 'owm';
+      night?: boolean;
+    }
+  | {
+      iconId: number;
+      className?: string;
+      name: 'yahoo';
+      night?: undefined;
+    }
+) &
+  React.ComponentPropsWithRef<'i'>;
 
 const WeatherIcon: React.FC<WeatherIconProps> = ({
   iconId,
