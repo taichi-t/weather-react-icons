@@ -1,4 +1,4 @@
 {
-  "include": ["example", "src"],
+  "include": ["example", "src", "jest.config.ts"],
   "exclude": ["example/node_modules", "example/dist"]
 }

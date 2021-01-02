@@ -8,5 +8,6 @@
     "strict": true,
     "noImplicitAny": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/__mock__/", "src/__test__/"]
 }
