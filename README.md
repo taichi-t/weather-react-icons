@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/weather-react-icons) [![Build Status](https://travis-ci.org/taichi-t/weather-react-icons.svg?branch=master)](https://travis-ci.org/taichi-t/weather-react-icons) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE) ![npm bundle size](https://img.shields.io/bundlephobia/min/weather-react-icons)
 
-A React components for weather icons for use with Open Weather and Yahoo Weather APIs.
+A React component for weather icons for use with Open Weather and Yahoo Weather APIs.
 
 ## Installaion
 

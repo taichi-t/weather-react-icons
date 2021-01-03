@@ -9,5 +9,5 @@
     "noImplicitAny": true
   },
   "include": ["src"],
-  "exclude": ["src/__mock__/", "src/__test__/"]
+  "exclude": ["src/__test__/"]
 }
