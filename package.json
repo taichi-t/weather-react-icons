@@ -9,7 +9,7 @@
     "lint": "eslint -c ./.eslintrc.json ./src/**/*.{ts,tsx} ./example/**/*.{ts,tsx}"
   },
   "author": "Taichi Tsujioka",
-  "license": "ISC",
+  "license": "MIT",
   "type": "module",
   "devDependencies": {
     "@testing-library/react": "^11.2.2",

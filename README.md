@@ -1,4 +1,4 @@
-# @taichi-t/weather-react-icons
+# weather-react-icons
 
 ## Instration
 
