@@ -1,6 +1,6 @@
 {
   "name": "weather-react-icons",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A React component for weather icons for use with Open Weather and Yahoo Weather APIs.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,8 +11,8 @@
     "prepublishOnly": "npm run build"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/taichi-t/weather-react-icons"
+    "type": "git",
+    "url": "https://github.com/taichi-t/weather-react-icons"
   },
   "keywords": [
     "react",
