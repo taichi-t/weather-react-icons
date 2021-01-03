@@ -10,6 +10,10 @@
     "lint": "eslint -c ./.eslintrc.json ./src/**/*.{ts,tsx} ./example/**/*.{ts,tsx}",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/taichi-t/weather-react-icons"
+  },
   "keywords": [
     "react",
     "react-icon",
