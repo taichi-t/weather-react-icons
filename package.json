@@ -1,6 +1,6 @@
 {
   "name": "weather-react-icons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React components for weather icons for use with Open Weather and Yahoo Weather APIs.",
   "main": "dist/index.js",
   "scripts": {
@@ -9,6 +9,14 @@
     "lint": "eslint -c ./.eslintrc.json ./src/**/*.{ts,tsx} ./example/**/*.{ts,tsx}",
     "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "react",
+    "react-icon",
+    "icon",
+    "weather-icon",
+    "yahoo",
+    "open-weather-map"
+  ],
   "author": "Taichi Tsujioka",
   "license": "MIT",
   "type": "module",
