@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "React components for weather icons for use with Open Weather and Yahoo Weather APIs.",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest",
