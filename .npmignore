@@ -1,0 +1,11 @@
+.gitignore
+package-lock.lock
+node_modules
+src
+.github
+.eslintrc.json
+.prettierrc.json
+jest.config.ts
+tsconfig.eslint.json
+tsconfig.json
+example
