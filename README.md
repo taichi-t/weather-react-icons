@@ -2,7 +2,7 @@
 
 ## Instration
 
-`$ npm i @taichi-t/weather-react-icons`
+`$ npm i weather-react-icons`
 
 ## Usage
 
