@@ -1,5 +1,7 @@
 # weather-react-icons
 
+https://travis-ci.org/taichi-t/weather-react-icons.svg?branch=master
+
 ## Instration
 
 `$ npm i weather-react-icons`
