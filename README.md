@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="35" height="35"/>&emsp;weather-react-icons
+# <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="35" height="35"/> weather-react-icons
 
 ![npm](https://img.shields.io/npm/v/weather-react-icons) [![Build Status](https://travis-ci.org/taichi-t/weather-react-icons.svg?branch=master)](https://travis-ci.org/taichi-t/weather-react-icons) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE) ![npm bundle size](https://img.shields.io/bundlephobia/min/weather-react-icons)
 
