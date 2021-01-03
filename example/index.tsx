@@ -3,6 +3,6 @@ import * as ReactDOM from 'react-dom';
 import { WeatherIcon } from 'weather-react-icons';
 
 ReactDOM.render(
-  <WeatherIcon iconId={200} name="owm" />,
+  <WeatherIcon iconId={201} name="owm" />,
   document.getElementById('root')
 );
