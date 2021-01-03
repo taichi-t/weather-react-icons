@@ -1,6 +1,6 @@
 # weather-react-icons
 
-https://travis-ci.org/taichi-t/weather-react-icons.svg?branch=master
+[![Build Status](https://travis-ci.org/taichi-t/weather-react-icons.svg?branch=master)](https://travis-ci.org/taichi-t/weather-react-icons)
 
 ## Instration
 
