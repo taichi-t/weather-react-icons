@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/taichi-t/weather-react-icons.svg?branch=master)](https://travis-ci.org/taichi-t/weather-react-icons) [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-## Instration
+## Installaion
 
 `$ npm i weather-react-icons`
 
@@ -28,9 +28,9 @@ const Weather = () => {
 
 ## Resources
 
-- [Open Weather API](https://openweathermap.org/) A scientific yet simple approach to weather forecast. Free. No ads.
-- [Yahoo Weather API](https://developer.yahoo.com/weather/) Get up-to-date weather information for any location, including 10-day forecast, wind, atmosphere, astronomy conditions, and more. You can lookup weather by location (city name) or lat/long.
-- [Weather icons](https://erikflowers.github.io/weather-icons/) The repository is created by [@erikflowers](https://github.com/erikflowers)
+- [Open Weather API](https://openweathermap.org/): A scientific yet simple approach to weather forecast. Free. No ads.
+- [Yahoo Weather API](https://developer.yahoo.com/weather/): Get up-to-date weather information for any location, including 10-day forecast, wind, atmosphere, astronomy conditions, and more. You can lookup weather by location (city name) or lat/long.
+- [Weather icons](https://erikflowers.github.io/weather-icons/): The repository is created by [@erikflowers](https://github.com/erikflowers)
 
 ## Licensing
 
