@@ -1,9 +1,12 @@
 {
   "name": "weather-react-icons",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A React component for weather icons for use with Open Weather and Yahoo Weather APIs.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "build": "tsc && copyfiles -f src/css/*.css dist/css/",
     "test": "jest",
