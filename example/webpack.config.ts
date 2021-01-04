@@ -54,7 +54,20 @@ const webpackConfig: webpack.Configuration = {
     hot: true,
   },
   plugins: [
-    new HtmlWebpackPlugin({ template: './index.html' }),
+    new HtmlWebpackPlugin({
+      templateContent: `
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather React Icons</title>
+      </head>
+      <body>
+        <div id="root"></div>
+      </body>
+      </html>
+  `,
+    }),
     new MiniCssExtractPlugin({
       filename: 'style.css',
     }),
