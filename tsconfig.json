@@ -3,7 +3,7 @@
     "target": "es2015",
     "module": "commonJS",
     "jsx": "react",
-    "outDir": "./dist",
+    "outDir": "./lib",
     "declaration": true,
     "strict": true,
     "noImplicitAny": true
