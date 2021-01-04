@@ -1,6 +1,6 @@
 {
   "name": "weather-react-icons",
-  "version": "2.0.8",
+  "version": "3.0.0",
   "description": "A React component for weather icons for use with Open Weather and Yahoo Weather APIs.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
