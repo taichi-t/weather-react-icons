@@ -28,6 +28,15 @@ const Weather = () => {
 |   night   |     boolean      | Optional  |  false  | If sets true, icons change to night icons. (note: night is only for "owe" icons) |
 | className |      string      | Optional  |         |                               Your own className.                                |
 
+## CSS usage
+
+if only use CSS files, import them as follows,
+
+```
+import 'weather-react-icons/lib/css/weather-icons.css';
+import 'weather-react-icons/lib/css/weather-icons-wind.css';
+```
+
 ## Resources
 
 - [Open Weather API](https://openweathermap.org/) : A scientific yet simple approach to weather forecast. Free. No ads.
