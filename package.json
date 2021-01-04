@@ -20,7 +20,8 @@
     "icon",
     "weather-icon",
     "yahoo",
-    "open-weather-map"
+    "open-weather-map",
+    "typescript"
   ],
   "author": "Taichi Tsujioka",
   "license": "MIT",
@@ -50,7 +51,7 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "weather-icons": "^1.3.2"
+    "weather-icons": "git+https://github.com/erikflowers/weather-icons.git"
   },
   "eslintIgnore": [
     "example/dist/**/*",
