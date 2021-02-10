@@ -8,7 +8,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "tsc && copyfiles -f src/css/*.css lib/css/ ",
+    "build": "tsc && copyfiles -f node_modules/weather-icons/css/*.css lib/css/ && copyfiles -f node_modules/weather-icons/font/**.* lib/font/",
     "test": "jest",
     "lint": "eslint -c ./.eslintrc.json ./src/**/*.{ts,tsx} ./example/**/*.{ts,tsx}",
     "prepublishOnly": "npm run build"
