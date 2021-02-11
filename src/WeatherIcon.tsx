@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './css/weather-icons.css';
+// import './css/weather-icons.css';
 import convertCode from './utils/convertCode';
 
 type WeatherIconProps = (
