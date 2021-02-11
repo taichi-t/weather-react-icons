@@ -12,6 +12,8 @@ A React component for weather icons for use with Open Weather and Yahoo Weather 
 
 ```javascript
 import * as React from 'react';
+// The following CSS file must be installed for use of WeatherIcon.
+import 'weather-react-icons/lib/css/weather-icons.css';
 import { WeatherIcon } from 'weather-react-icons';
 
 const Weather = () => {
