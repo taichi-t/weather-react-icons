@@ -26,7 +26,7 @@ const Weather = () => {
 |   Name    |       Type       | Required? | default |                                   Description                                    |
 | :-------: | :--------------: | --------- | :-----: | :------------------------------------------------------------------------------: |
 |  iconId   |      number      | Required  |         |           Icon Id that OpenWeatherMap and Yahoo Weather API provides.            |
-|   name    | `owe` or `yahoo` | Required  |         |                                API name you use.                                 |
+|   name    | `owm` or `yahoo` | Required  |         |                                API name you use.                                 |
 |   night   |     boolean      | Optional  |  false  | If sets true, icons change to night icons. (note: night is only for "owe" icons) |
 | className |      string      | Optional  |         |                               Your own className.                                |
 
